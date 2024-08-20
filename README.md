@@ -9,8 +9,9 @@
 I started by designing and making a dynamic library with C++. This library helps do things like sorting, reading, showing, and calculating averages. It created two main files:
 - **ProjectOS2.dll**: This file has all the real work of the functions.
 - **ProjectOS2.lib**: This file helps connect programs to the dynamic library.
+![image](https://github.com/user-attachments/assets/090d9c14-122f-44e4-ad46-eaff014b5779) ![image](https://github.com/user-attachments/assets/553150e9-d328-4dc8-8bd5-7799d5471400)
 
-<small><strong>ProjectOS2.lib</strong> is made automatically when ProjectOS2 is built. It helps connect apps dynamically with the dynamic library ProjectOS2.dll. Adding ProjectOS2.lib to the linker settings in Visual Studio makes sure functions in ProjectOS2.dll can be accessed. After building, you can find ProjectOS2.lib in the output folder to use in other projects.</small>
+<ProjectOS2.lib:is made automatically when ProjectOS2 is built. It helps connect apps dynamically with the dynamic library ProjectOS2.dll. Adding ProjectOS2.lib to the linker settings in Visual Studio makes sure functions in ProjectOS2.dll can be accessed. After building, you can find ProjectOS2.lib in the output folder to use in other projects.>
 
 
 ### 2. Setting Up the TestProject Program
@@ -25,4 +26,3 @@ In Visual Studio, I changed the Properties settings for both the ProjectOS2 and 
 ### 4. Testing Results and Verification
 After assembling and running TestProject, the program successfully showed the expected results, confirming that the functions of the ProjectOS2 library work well. This test proves that the library can perform the required tasks efficiently and accurately. The results were displayed on the screen and matched expectations, reflecting the effective performance of the developed functions.
 
-<!-- Picture -->
