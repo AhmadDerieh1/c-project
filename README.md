@@ -1,14 +1,15 @@
-### 🚨 **Please Carefully Read the Following Section** 🚨
-
+### 🚨 **Please Read the Following Section** 🚨
+**Delivery Date🚚: August 17, 2024**
+![image](https://github.com/user-attachments/assets/54cc6e21-3dab-4442-bab9-6397d61491a7)
 # Project Summary: ProjectOS2 📘
 
 ## Development Steps 🚀
-**Delivery Date🚚: August 17, 2024**
-![image](https://github.com/user-attachments/assets/54cc6e21-3dab-4442-bab9-6397d61491a7)
+
 ### 1. Creating ProjectOS2 Library
 I started by designing and making a dynamic library with C++. This library helps do things like sorting, reading, showing, and calculating averages. It created two main files:
 - **ProjectOS2.dll**: This file has all the real work of the functions.
 - **ProjectOS2.lib**: This file helps connect programs to the dynamic library.
+  
 ![image](https://github.com/user-attachments/assets/090d9c14-122f-44e4-ad46-eaff014b5779) ![image](https://github.com/user-attachments/assets/553150e9-d328-4dc8-8bd5-7799d5471400)
 
 <ProjectOS2.lib:is made automatically when ProjectOS2 is built. It helps connect apps dynamically with the dynamic library ProjectOS2.dll. Adding ProjectOS2.lib to the linker settings in Visual Studio makes sure functions in ProjectOS2.dll can be accessed. After building, you can find ProjectOS2.lib in the output folder to use in other projects.>
