@@ -27,5 +27,6 @@ In Visual Studio, I changed the Properties settings for both the ProjectOS2 and 
 
 ### 4. Testing Results and Verification
 After assembling and running TestProject, the program successfully showed the expected results, confirming that the functions of the ProjectOS2 library work well. This test proves that the library can perform the required tasks efficiently and accurately. The results were displayed on the screen and matched expectations, reflecting the effective performance of the developed functions.
+
 ![image](https://github.com/user-attachments/assets/3c275c69-3041-4a9c-996d-343a3b89e92d)
 
